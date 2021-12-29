@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Caramel</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Главная</string>
+    <string name="menu_cake">Тортики</string>
+    <string name="menu_slice_cake">Пирожные</string>
+    <string name="menu_buns">Булочки</string>
+    <string name="menu_desert">Десерты</string>
+    <string name="menu_conn">Немного о приложении</string>
+    <string name="nameCon1">Confectionery Caramel</string>
+    <string name="priceHome">Цена</string>
+</resources>

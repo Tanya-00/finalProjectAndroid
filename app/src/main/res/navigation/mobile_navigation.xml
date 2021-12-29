@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.example.caramel.ui.home.HomeFragment"
+        android:label="@string/menu_home"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/nav_cake"
+        android:name="com.example.caramel.ui.cake.CakeFragment"
+        android:label="@string/menu_cake"
+        tools:layout="@layout/fragment_cake" />
+
+    <fragment
+        android:id="@+id/nav_slice_cake"
+        android:name="com.example.caramel.ui.slice_cake.SliceCakeFragment"
+        android:label="@string/menu_slice_cake"
+        tools:layout="@layout/fragment_slice_cake" />
+
+    <fragment
+        android:id="@+id/nav_buns"
+        android:name="com.example.caramel.ui.buns.BunsFragment"
+        android:label="@string/menu_buns"
+        tools:layout="@layout/fragment_buns"/>
+
+    <fragment
+        android:id="@+id/nav_desert"
+        android:name="com.example.caramel.ui.desert.DesertFragment"
+        android:label="@string/menu_desert"
+        tools:layout="@layout/fragment_desert"/>
+
+    <fragment
+        android:id="@+id/nav_connect"
+        android:name="com.example.caramel.ui.connection.ConnectionFragment"
+        android:label="@string/menu_conn"
+        tools:layout="@layout/fragment_connection"/>
+</navigation>
