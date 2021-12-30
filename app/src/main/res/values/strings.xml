@@ -15,4 +15,11 @@
     <string name="menu_conn">Немного о приложении</string>
     <string name="nameCon1">Confectionery Caramel</string>
     <string name="priceHome">Цена</string>
+    <string name="inf">Информация о приложении</string>
+    <string name="infCafe">Данное приложение было написано для перкрасной кондитерской Caramel, которая предоставляет ассортимент свежайших сладостей</string>
+    <string name="atFoto">На фотографии ниже вы можете увидеть саму кондитерскую</string>
+    <string name="aboutCafe">Кондитерская небольшая, но очень уютная, свежий аромат выпечки так и манит зайти, и взять вкусное дополнение к чаю</string>
+    <string name="inApp">В приложении вы сможете узнать ассортимент кондитерской из любой точки, и заранее решить, что вы хотите приобрести</string>
+    <string name="dev">Автором приложения является разработчик по имени Татьяна</string>
+    <string name="dev2">Если вы найдете какие-то недостатки в приложении, то связаться с разработчиком можно через https://vk.com/taki_fox</string>
 </resources>
