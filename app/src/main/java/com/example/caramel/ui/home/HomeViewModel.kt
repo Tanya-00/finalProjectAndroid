@@ -12,6 +12,11 @@ class HomeViewModel : ViewModel() {
     }
     val text: LiveData<String> = _text
 
+    private val _nameCon = MutableLiveData<String>().apply {
+        value = "Confectionery Caramel"
+    }
+    val nameCon: LiveData<String> = _nameCon
+
     var items: List<String> = listOf(
         "Торты",
         "Пирожные",

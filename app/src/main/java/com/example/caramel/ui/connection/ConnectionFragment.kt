@@ -6,6 +6,7 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import android.widget.ImageView
+import android.widget.TextView
 import androidx.fragment.app.Fragment
 import androidx.lifecycle.Observer
 import androidx.lifecycle.ViewModelProvider
@@ -32,6 +33,42 @@ class ConnectionFragment : Fragment() {
 
         _binding = FragmentConnectionBinding.inflate(inflater, container, false)
         val root: View = binding.root
+
+        val textViewInf:TextView = binding.inf
+        val textViewInfCafe: TextView = binding.infCafe
+        val textViewAtFoto: TextView = binding.atFoto
+        val textViewAboutCafe: TextView = binding.aboutCafe
+        val textViewInApp: TextView = binding.inApp
+        val textViewDev: TextView = binding.dev
+        val textViewDev2: TextView = binding.dev2
+
+        connectionViewModel.inf.observe(viewLifecycleOwner, Observer {
+            textViewInf.text = it
+        })
+
+        connectionViewModel.infCafe.observe(viewLifecycleOwner, Observer {
+            textViewInfCafe.text = it
+        })
+
+        connectionViewModel.atFoto.observe(viewLifecycleOwner, Observer {
+            textViewAtFoto.text = it
+        })
+
+        connectionViewModel.aboutCafe.observe(viewLifecycleOwner, Observer {
+            textViewAboutCafe.text = it
+        })
+
+        connectionViewModel.inApp.observe(viewLifecycleOwner, Observer {
+            textViewInApp.text = it
+        })
+
+        connectionViewModel.dev.observe(viewLifecycleOwner, Observer {
+            textViewDev.text = it
+        })
+
+        connectionViewModel.dev2.observe(viewLifecycleOwner, Observer {
+            textViewDev2.text = it
+        })
 
         val retrofit: Retrofit =  Retrofit.Builder()
             .baseUrl("https://api.github.com/")

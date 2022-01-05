@@ -1,11 +1,5 @@
 <resources>
     <string name="app_name">Caramel</string>
-    <string name="navigation_drawer_open">Open navigation drawer</string>
-    <string name="navigation_drawer_close">Close navigation drawer</string>
-    <string name="nav_header_title">Android Studio</string>
-    <string name="nav_header_subtitle">android.studio@android.com</string>
-    <string name="nav_header_desc">Navigation header</string>
-    <string name="action_settings">Settings</string>
 
     <string name="menu_home">Главная</string>
     <string name="menu_cake">Тортики</string>
@@ -13,13 +7,5 @@
     <string name="menu_buns">Булочки</string>
     <string name="menu_desert">Десерты</string>
     <string name="menu_conn">Немного о приложении</string>
-    <string name="nameCon1">Confectionery Caramel</string>
     <string name="priceHome">Цена</string>
-    <string name="inf">Информация о приложении</string>
-    <string name="infCafe">Данное приложение было написано для перкрасной кондитерской Caramel, которая предоставляет ассортимент свежайших сладостей</string>
-    <string name="atFoto">На фотографии ниже вы можете увидеть саму кондитерскую</string>
-    <string name="aboutCafe">Кондитерская небольшая, но очень уютная, свежий аромат выпечки так и манит зайти, и взять вкусное дополнение к чаю</string>
-    <string name="inApp">В приложении вы сможете узнать ассортимент кондитерской из любой точки, и заранее решить, что вы хотите приобрести</string>
-    <string name="dev">Автором приложения является разработчик по имени Татьяна</string>
-    <string name="dev2">Если вы найдете какие-то недостатки в приложении, то связаться с разработчиком можно через https://vk.com/taki_fox</string>
 </resources>
